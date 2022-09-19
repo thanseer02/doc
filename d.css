@@ -1,0 +1,132 @@
+*
+{
+    margin: 10;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+nav
+{
+    display: grid;
+    place-items:center;
+    font-family: monospace;
+    border-radius: 5px;
+    max-width: 400px;
+    border-left: 2px thin rgb(255, 0, 0);
+       overflow:auto;
+       position: fixed;
+       display: block;
+    float: left;
+
+   
+   overflow-x: hidden;
+}    
+nav ul
+{
+    list-style-type: none;
+    border-bottom:thin 2px rgb(0, 22, 22,0.4);
+}
+
+nav ul a
+{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.5s ease-out;
+    font-size: 20px;
+    font-family: monospace;
+    position: relative;
+    color:#000;
+    display:block;
+    padding:5px;
+    text-decoration: none;
+}
+nav ul a:before
+{
+    content:"";
+    position: absolute;
+    width: 0%;
+    height:100% ;
+    top:0;
+    left: 0;
+    border-bottom: 2px solid rgb(245, 240, 240);
+    transition: 0.4s linear;
+
+}
+nav ul a:hover:before
+{
+    width: 90%;
+}
+nav ul a:hover
+{
+    background-color:transparent;
+    color: rgb(228, 69, 69);
+    font-size:18px;
+    font-family:sans-serif;
+}
+
+h1
+{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 45px;
+    color:black;
+    border-style: inset  ;
+
+}
+pre
+{
+    border-style: solid;
+    background-color:rgb(198, 221, 241);
+    transition: 0.2s;
+    color: rgb(50, 29, 3);
+    font-size: 15px;
+}
+pre:hover
+{
+    font-size: 17px;
+
+}
+h2
+{
+    text-align: center;
+    position: relative;
+    margin-right: 100px;
+    transition: 0.2s;
+
+}
+h2:hover
+{
+    background-color: transparent;
+    font-size: 35px;
+    color: red;
+    font-family: monospace;
+    font-style: ;
+}
+body
+
+{
+    background-color: rgba(251, 251, 251, 0.7) ;
+    color: rgb(2, 11, 19);
+    margin-left: 0px;
+    text-underline-offset: unset;
+    line-height: 1.5;
+    min-width: 290px;
+}
+p
+{
+ margin-left: 310px;
+}
+h3
+{
+    text-align: center;
+    position: relative;
+    margin-right: 100px;
+
+}
+pre
+{ 
+
+    margin-left: 310px;
+}
